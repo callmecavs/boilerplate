@@ -1,0 +1,21 @@
+/** @type {import("prettier").Config} */
+const config = {
+  arrowParens: "avoid",
+  importOrder: [
+    "<TYPES>",
+    "^(react/(.*)$)|^(react$)",
+    "^(next/(.*)$)|^(next$)",
+    "<THIRD_PARTY_MODULES>",
+    "",
+    "<TYPES>^[.]",
+    "^@/(.*)$",
+    "^[./]",
+  ],
+  plugins: ["@ianvs/prettier-plugin-sort-imports"],
+  printWidth: 120,
+  semi: false,
+  tabWidth: 2,
+  useTabs: false,
+}
+
+export default config

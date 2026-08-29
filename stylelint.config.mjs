@@ -1,0 +1,180 @@
+/** @type {import("stylelint").Config} */
+const config = {
+  extends: ["stylelint-config-standard-scss", "stylelint-prettier/recommended"],
+  plugins: ["stylelint-order"],
+  rules: {
+    "alpha-value-notation": "number",
+    "block-no-empty": null,
+    "custom-property-empty-line-before": ["never", { ignore: ["after-custom-property"] }],
+    "media-feature-range-notation": "prefix",
+    "order/properties-order": [
+      [
+        "all",
+        "box-sizing",
+        "content",
+        "isolation",
+        "visibility",
+        "z-index",
+
+        "overflow",
+        "overflow-x",
+        "overflow-y",
+
+        "animation",
+        "animation-name",
+        "animation-duration",
+        "animation-timing-function",
+        "animation-delay",
+        "animation-iteration-count",
+        "animation-direction",
+        "animation-fill-mode",
+        "animation-play-state",
+        "animation-timeline",
+
+        "clip-path",
+        "filter",
+        "opacity",
+
+        "transform",
+        "transform-origin",
+
+        "transition",
+        "transition-property",
+        "transition-duration",
+        "transition-timing-function",
+        "transition-delay",
+        "transition-behavior",
+
+        "position",
+        "inset",
+        "top",
+        "right",
+        "bottom",
+        "left",
+
+        "display",
+
+        "grid-auto-flow",
+        "grid-template",
+        "grid-template-columns",
+        "grid-template-rows",
+        "grid-auto-columns",
+        "grid-auto-rows",
+
+        "flex-direction",
+        "flex-wrap",
+
+        "place-items",
+        "justify-content",
+        "justify-items",
+        "align-content",
+        "align-items",
+        "align-self",
+
+        "gap",
+        "row-gap",
+        "column-gap",
+
+        "grid-row",
+        "grid-column",
+
+        "flex",
+        "flex-grow",
+        "flex-shrink",
+        "flex-basis",
+
+        "width",
+        "min-width",
+        "max-width",
+
+        "height",
+        "min-height",
+        "max-height",
+
+        "margin",
+        "margin-block",
+        "margin-inline",
+        "margin-block-start",
+        "margin-inline-end",
+        "margin-block-end",
+        "margin-inline-start",
+        "margin-top",
+        "margin-right",
+        "margin-bottom",
+        "margin-left",
+
+        "scroll-margin",
+        "scroll-margin-top",
+        "scroll-margin-right",
+        "scroll-margin-bottom",
+        "scroll-margin-left",
+
+        "padding",
+        "padding-block",
+        "padding-inline",
+        "padding-block-start",
+        "padding-inline-end",
+        "padding-block-end",
+        "padding-inline-start",
+        "padding-top",
+        "padding-right",
+        "padding-bottom",
+        "padding-left",
+
+        "border",
+        "border-top",
+        "border-right",
+        "border-bottom",
+        "border-left",
+        "border-width",
+        "border-style",
+        "border-color",
+        "border-radius",
+
+        "outline",
+        "outline-width",
+        "outline-style",
+        "outline-color",
+
+        "backdrop-filter",
+
+        "background",
+        "background-color",
+        "background-image",
+        "background-size",
+        "background-position",
+        "background-repeat",
+        "background-attachment",
+
+        "box-shadow",
+
+        "font",
+        "font-family",
+        "font-weight",
+        "font-size",
+        "font-style",
+        "letter-spacing",
+        "line-height",
+
+        "text-align",
+        "text-decoration",
+        "text-overflow",
+        "text-size-adjust",
+        "text-transform",
+        "white-space",
+        "color",
+
+        "cursor",
+        "pointer-events",
+        "user-select",
+      ],
+      {
+        unspecified: "bottomAlphabetical",
+      },
+    ],
+    "prettier/prettier": true,
+    "selector-class-pattern": null,
+  },
+}
+
+export default config

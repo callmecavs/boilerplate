@@ -1,0 +1,19 @@
+{
+  "[scss]": { "editor.defaultFormatter": "stylelint.vscode-stylelint" },
+  "chat.disableAIFeatures": true,
+  "debug.javascript.codelens.npmScripts": "never",
+  "editor.codeActionsOnSave": { "source.fixAll.stylelint": "explicit" },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "Berkeley Mono",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "files.exclude": { "**/.git": false },
+  "files.insertFinalNewline": true,
+  "js/ts.updateImportsOnFileMove.enabled": "always",
+  "stylelint.validate": ["css", "postcss", "scss"],
+  "workbench.colorTheme": "Ayu Dark Bordered",
+  "workbench.editorAssociations": { "*.svg": "default" },
+  "workbench.iconTheme": "ayu"
+}

@@ -1,0 +1,5 @@
+@use "@/styles/functions.scss" as *;
+
+$tablet: unit-rem(768px);
+$desktop: unit-rem(1024px);
+$cinema: unit-rem(1440px);
