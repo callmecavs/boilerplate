@@ -1,3 +1,6 @@
+> [!WARNING]
+> I use this to start new projects, often on new hardware. It’s not well documented, and includes things you likely don’t want (example: VS Code preferences).
+
 # boilerplate
 
 Frontend / design engineering boilerplate. Successor to [outset](https://github.com/callmecavs/outset).
