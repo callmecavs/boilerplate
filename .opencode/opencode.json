@@ -12,7 +12,7 @@
       "type": "local"
     },
     "playwright": {
-      "command": ["npx", "@playwright/mcp@latest"],
+      "command": ["npx", "@playwright/mcp@latest", "--headless"],
       "enabled": true,
       "type": "local"
     }
