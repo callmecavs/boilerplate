@@ -19,6 +19,7 @@ const RootLayout = ({ children }: LayoutProps<"/">) => {
   return (
     <html
       // className={`${FontBoilerplate.variable}`}
+      data-scroll-behavior="smooth"
       lang="en"
     >
       <body>{children}</body>
