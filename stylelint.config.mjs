@@ -11,6 +11,7 @@ const config = {
       [
         "all",
         "box-sizing",
+        "field-sizing",
         "content",
         "isolation",
         "visibility",
